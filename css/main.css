@@ -92,13 +92,37 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
+.nav-footer {
+  display: inline;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* utility classes*/
+.rightblock {
+  display: flex;
+  background-color: #FFFFFF;
 
+}
+.background-twitt-pic {
+  display: flex;
 
+}
+.left-block-container {
+  display: flex;
+  background-color: #1DA1F2;
+}
+.nav-footer{
+  background-color: #FFFFFF;
 
+}
+/* end of utility classes*/
+
+/* Commmon rules*/
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* End of common rules*/
 
 
 
