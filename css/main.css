@@ -103,13 +103,10 @@ textarea {
 display: flex;
 }
 
-.rightblock, .left-block-container{
+.rightblockContainer, .LeftBlockContainer{
   width: 50%;
   height: 87vh;
 }
-
-
-
 .nav-footer {
   display: flex;
   width:100%;
@@ -128,22 +125,72 @@ span {
 
 }
 /* End of common rules*/
-
-.left-block-container {
+/*left items container*/
+.LeftBlockContainer {
   background-color: #1DA1F2;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
 }
-.presentation-area {
-
+/*left items*/
+.presentationArea {
+    justify-content: center;
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
     margin: 48px auto;
 }
+/*right block container*/
+.rightblockContainer {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+/*right items container*/
+.SignBlockContainer {
+  background-color: white;
+display: block;
+flex-direction: column;
+align-content: center;
+max-width: 300px
+ align-items: center;
+}
+/* right items*/
+h1 {
+
+  background-color: lightblue;
+  font-size: 1.5em;
+  max-width: 350px;
+justify-content: center;
+}
+h2 {
+  background-color: brown;
+  font-size: 1em;
+  max-width: 350px;
+}
+
+.logo§connectionButton {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px auto;
+}
 .signupbutton {
+  background-color: pink;
  color: white;
+}
+.signupfield {
+  background-color: green;
+}
+.signinfield {
+background-color: orange;
+}
+/* footer nav items*/
+i {
+  font-size: 22px;
+  margin-right: 16px;
 }
 
 ul {
@@ -153,6 +200,7 @@ ul {
   padding: 11px;
   font-size: 12px;
   justify-content: center;
+
 
 }
 li {
